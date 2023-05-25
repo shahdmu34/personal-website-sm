@@ -1,0 +1,156 @@
+body{
+    background-image: url(../images/AdobeColorGradient\ gradient_the-valley-minimal-4k-9y\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header{
+    position: absolute;
+    top:0;
+    left: 10px;
+    width: 100%;
+    
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.title{
+    font-size: 2m;
+    color:#fff;
+    pointer-events: none;
+    margin-right: 600px;
+}
+
+
+.siteNav a{
+    text-decoration: none ;
+    color: #FEE2BD;
+    padding: 6px 15px;
+    border-radius:  20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.siteNav a:hover,
+.siteNav a.active{
+    background: #FEE2BD;
+    color: #fff;
+
+}
+
+.intro{
+    max-width: 1100px;
+    margin: 100px auto 90px auto;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.timeline{
+    margin: 0 auto;
+    max-width: 750px;
+    padding:25px;
+    display: grid;
+    grid-template-columns:  1fr 3px 1fr;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(10, 14, 18); 
+}
+
+.time-header{
+    padding: 1.5em;
+    
+    margin: 0 20px 20px 20px;
+    background-color: #FACEB5;
+    box-shadow: 0 0 5px #F8B2A8;
+    border-radius: 10px;
+}
+
+.datetitle{
+    margin: 0 20px 20px 20px;
+    text-align: left;
+}
+
+.datetitle-right{
+    text-align: right;
+}
+
+.timeline-middle{
+    position: relative;
+    background: #EF9BB2;
+}
+
+.point{
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #EF9BB2;
+    border-radius: 50%;
+}
+
+.point-bottom{
+    position: absolute;
+    top: initial;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #EF9BB2;
+    border-radius: 50%;
+    bottom: 0;
+}
+
+.timiline-head{
+    margin:0;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+.timeline-paragraph{
+    line-height: 1.5em;
+    text-align: left;
+     
+}
+
+.skills{
+    text-align: center;
+}
+
+
+.downloadbtn {
+    
+    display: block;
+    background: #FACEB5;
+    color:black;
+    cursor: pointer;
+    padding: 12px 20px;
+    text-decoration: none;
+    width: 320px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    margin:auto;
+    height: auto;
+}
+
+.resume{
+    color:#F8B2A8;
+    font-size: 30px;
+}
+
+.res-p{
+    font-size: 20px;
+}
+
+.title-res{
+    color: #ad9283;
+}
