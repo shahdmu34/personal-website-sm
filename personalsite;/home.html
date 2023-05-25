@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/homestyle.css">
+</head>
+<body>
+
+<header>
+    <h2 class="title">Shahd Mustafa</h2>
+
+    <nav class="siteNav">
+        
+            <a href="home.html" class="active">Home</a>
+            <a href="resumePage.html">Resume</a>
+            <a href="projectsPage.html">Projects</a>
+        
+    </nav>
+</header>
+
+    
+<section class="mid-Text">
+    
+   <img  class="imgmid"src="../personalsite;/New folder (2)/the-valley-minimal-4k-9y.jpg">
+    <h2 id="titletext"> Welcome</h2>
+    
+   
+
+    
+
+
+</section>
+
+
+
+
+
+
+<section class="bio"    id="bio-section" >
+    <h2>About</h2>
+    <h1>Let me introduce myself.</h1>
+    <br>
+    <p>Hello, I'm Shahd Mustafa, a senior studying Software Engineering at the University of Michigan.
+         Passionate about technology and driven by creativity, I'm dedicated
+          to delivering dynamic solutions that enhance the user experience. Join me on my journey as I strive 
+          to make a meaningful impact in the ever-evolving world of software engineering.<br><br>
+        </p>
+
+    <h2>Profile:</h2>
+    <p> I'm currently seeking an internship/co-op opportunity to further my skills and knowledge
+        in web and app development.</p>
+    <p>Email: smustafa11710@gmail.com<br>
+    <br>
+    <button type="button" class="links" onclick="location.href='https://github.com/shahdmu34'">
+        GitHub
+        
+            <ion-icon name="logo-github"></ion-icon>
+        
+    </button>
+
+    <button type="button" class="links" onclick="location.href='https://www.linkedin.com/in/shahd-mustafa-194894252/'">
+        <span class="button_text">Linkedin</span>
+        <span class="button_icon">
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </span>
+    </button>
+
+    
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+    
+</section>
+
+  
+
+<script type="text/javascript">
+
+
+
+    let text = document.getElementById('titletext');
+    
+
+
+    window.addEventListener('scroll', () => {
+  let value = window.scrollY;
+  let scrollLimit = 500; // Adjust this value to set the scroll limit
+
+  // Check if the scroll position exceeds the scroll limit
+  if (value <= scrollLimit) {
+    text.style.marginTop = value * 2.5 + 'px';
+    
+  }
+});
+
+    
+
+
+</script>
+    
+</body>
+</html>
